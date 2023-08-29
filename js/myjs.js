@@ -10,6 +10,8 @@ $(document).ready(function () {
             $("#inputNama").val("Jackson Wang");
             $("#inputIpk").val("2.9");
             $("#tombolDaftar").prop('disabled', true);
+            $("#customFile").prop('disabled', true);
+            $("#inputBeasiswa").prop('disabled', true);
         } else {
             $('#warningModal').modal('show');
             $("#tombolDaftar").prop('disabled', true);
