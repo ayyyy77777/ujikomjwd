@@ -252,7 +252,7 @@ new Chart(ctx, {
     <label for="beasiswa" class="col-sm-2 col-form-label">Beasiswa</label>
     <div class="col-sm-10">
 
-      <select class="form-control" name="beasiswa" id="beasiswa" required <?php echo SetDisable($ipk)?>>
+      <select class="form-control" name="beasiswa" id="inputBeasiswa" required <?php echo SetDisable($ipk)?>>
         <option value="akademik" <?php echo SetBeasiswa("akademik",$jenis_beasiswa)?>>Akademik</option>
         <option value="non_akademik" <?php echo SetBeasiswa("non_akademik",$jenis_beasiswa)?>>Non Akademik</option>
       </select>
